@@ -1,0 +1,45 @@
+.job-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .job-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .job-details-content {
+    text-align: left;
+  }
+  
+  .job-details-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .job-details-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .hire-btn {
+    padding: 10px 20px;
+    background-color: #1dbf73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hire-btn:hover {
+    background-color: #17a564;
+  }
+  

@@ -1,0 +1,66 @@
+/* HelpPage.css */
+.help-container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.faq-section {
+  margin-bottom: 30px;
+}
+
+.faq-section h2 {
+  color: #555;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.faq-item p {
+  margin: 0;
+  color: #666;
+}
+
+.contact-section {
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+}
+
+.contact-section h2 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.contact-section p a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.contact-section p a:hover {
+  text-decoration: underline;
+}

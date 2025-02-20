@@ -1,0 +1,120 @@
+/* General styles for Login and Signup pages */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4c6ef5, #d4f1f4);
+  font-family: 'Arial', sans-serif;
+  padding: 1rem;
+}
+
+.auth-header {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 5px;
+}
+
+.auth-header span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.auth-box {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.auth-box h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.auth-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-box label {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-size: 14px;
+}
+
+.auth-box input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-box input:focus {
+  outline: none;
+  border-color: #4c6ef5;
+  box-shadow: 0 0 6px rgba(76, 110, 245, 0.5);
+}
+
+.auth-box button {
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #4c6ef5, #345adb);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: linear-gradient(135deg, #345adb, #4c6ef5);
+  transform: translateY(-2px);
+}
+
+.auth-box p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #666;
+}
+
+.auth-box a {
+  color: #4c6ef5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+  color: #345adb;
+}
